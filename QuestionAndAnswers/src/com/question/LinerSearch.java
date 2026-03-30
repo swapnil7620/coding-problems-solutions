@@ -21,7 +21,7 @@ public class LinerSearch {
 	  System.out.println(result!=-1?"found at : "+result:"not found");
 
 	  
-	  // basic way 
+	  // Basic way 
 		/*
 		  int[] arr = { 10, 20, 100, 8, 977, 488 };
 		  
