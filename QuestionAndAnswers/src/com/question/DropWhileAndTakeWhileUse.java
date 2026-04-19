@@ -12,8 +12,8 @@ public class DropWhileAndTakeWhileUse {
 		
 		/*   dropWhile() method
 		    1) Skips elements from the start while the condition is true.
-			2️)  When condition becomes false, it returns the remaining elements.
-			3️)  Works on ordered streams.
+			2)  When condition becomes false, it returns the remaining elements.
+			3)  Works on ordered streams.
 			4)️  Also introduced in Java 9.
 			
 		 */
@@ -26,7 +26,7 @@ public class DropWhileAndTakeWhileUse {
 		    1) Returns elements from the start while the condition is true.
 	    	2) Stops processing when the condition becomes false.
 		    3)	 Works best with ordered streams.
-			4️) Introduced in Java SE 9.
+			4) Introduced in Java SE 9.
 		 */
 		List<Integer> collect = values.stream().sorted().takeWhile(number -> number < 10).collect(Collectors.toList());
 		System.out.print(collect);
