@@ -6,7 +6,7 @@ import java.util.Map;
 public class findMostFrequentCharacter {
 	public static void main(String[] args) {
 
-		String value = "";
+		String value = "apple".toLowerCase();
 		
 		// Used map to stored the key and value pair
 		Map<Character, Integer> map = new  LinkedHashMap<Character, Integer>();
@@ -44,6 +44,7 @@ public class findMostFrequentCharacter {
 		}
 		// for the output
 		System.out.println(character +" : " +count);
+		
 		
 
 		
